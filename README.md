@@ -95,6 +95,8 @@ Destination render texture.
 
 Usually cameras render directly to screen, but for some effects it is useful to make a camera render into a texture. This is done by creating a RenderTexture object and setting it as targetTexture on the camera. The camera will then render into that texture.
 
+for the implementation we will follew a simple step to create a mirror:
+
 1. `Create a camera, set positition and rotation according to the requirement`
 
    first of all, we setup the scene first, by making 3 cube like in this image below:
