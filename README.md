@@ -91,26 +91,39 @@ Indicates reference to Render Texture asset
 - Instead of rendering on screen: we can render the output of a camera on game
   object
 
-Simple step to Create a Mirror:
+first of all, we setup the scene first, by making 3 cube like in this image below:
+
+![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
+
+
+![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
+
+
+![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
 1. `Create a camera, set positition and rotation according to the requirement`
 
-   - Setup the scene: Game Object Menu -> 3D Object -> Cube
+   - Setup the camera: Select Game Object Menu -> Camera
 
-   - Scale it ( x = 10, y = 1, z = 10)
+    ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
-   - Create 2 more cube and scale it by (x = 2, y = 2, z = 2) and set the
-     positition ( move it Up, Move it left side )
+   - Setup the positition
+  
+    we can move the positition little bit up or move it back, move it left/right and we can also rotate it around x, y, z axis until we can display a different view in our     screen. Now the camera that we have newly created is rendering the output to screen or displaying the output inside the game view.
+    
+    ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
 2. `Create a New Rener Texture, Asset - Create - Render Texture`
 
    - Go to asset menu -> create -> render texture
+     
+    ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
-3. `Set the Target Texture of New Camera to New Rende Texture`
+3. `Set the Target Texture of New Camera to New Render Texture`
 
-   - Going to Game Object Menu -> camera
-
-   - Drag new render texture inside target texture property
+   - Select Camera and drag New Render Texture inside Target Texture property
+  
+      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
      You should observe that in the game view you are going to see the output of
      the main camera not the output of newly created camera. So the camera lost
@@ -122,23 +135,33 @@ Simple step to Create a Mirror:
 
    - Create Material
 
+      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
+
    - Drag New Render Texture to Albedo property
+
+      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
 5. `Create a New Plane, and apply the New Material to it`
 
    - Game Object Menu -> 3D Object -> Plane
 
+      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
+
    - Move it Up and Rotate it around x axis and z axis
+
+      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
    - Drag new material to the plane and duplicate it
 
-   - Rotate it around y axis
+      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
    - The Mirror is Created
 
+      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
+
    This is how we can create mirror. if we delete one of the cube its will
    deleted in mirror too. so that is the use for the render texture.
-
+   
 ## Skybox
 
 Skybox is a material that represent the skies and the ground. With skybox, we
