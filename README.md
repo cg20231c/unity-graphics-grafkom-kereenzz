@@ -91,7 +91,10 @@ Indicates reference to Render Texture asset
 - Instead of rendering on screen: we can render the output of a camera on game
   object
 
-first of all, we setup the scene first, by making 3 cube like in this image below:
+
+1. `Create a camera, set positition and rotation according to the requirement`
+
+   first of all, we setup the scene first, by making 3 cube like in this image below:
 
 ![This](images/0.png)
 
@@ -101,7 +104,6 @@ first of all, we setup the scene first, by making 3 cube like in this image belo
 
 ![This](images/0b.png)
 
-1. `Create a camera, set positition and rotation according to the requirement`
 
    - Setup the camera: Select Game Object Menu -> Camera
 
@@ -114,14 +116,14 @@ first of all, we setup the scene first, by making 3 cube like in this image belo
     ![This](images/1b.png)
    
 
-3. `Create a New Rener Texture, Asset - Create - Render Texture`
+2. `Create a New Rener Texture, Asset - Create - Render Texture`
 
    - Go to asset menu -> create -> render texture
      
     ![This](images/2a.png)
    
 
-5. `Set the Target Texture of New Camera to New Render Texture`
+3. `Set the Target Texture of New Camera to New Render Texture`
 
    - Select Camera and drag New Render Texture inside Target Texture property
   
@@ -135,7 +137,7 @@ first of all, we setup the scene first, by making 3 cube like in this image belo
      screen. so will put all the information inside New Render Texture.
      
 
-6. `Create a New Material, set its Albedo property to New Render Texture`
+4. `Create a New Material, set its Albedo property to New Render Texture`
 
    - Create Material
 
@@ -147,7 +149,7 @@ first of all, we setup the scene first, by making 3 cube like in this image belo
       ![This](images/4b.png)
      
 
-7. `Create a New Plane, and apply the New Material to it`
+5. `Create a New Plane, and apply the New Material to it`
 
    - Game Object Menu -> 3D Object -> Plane
 
@@ -156,11 +158,9 @@ first of all, we setup the scene first, by making 3 cube like in this image belo
 
    - Move it Up and Rotate it around x axis and z axis
 
-      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
    - Drag new material to the plane and duplicate it
 
-      ![This](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
    - The Mirror is Created
 
