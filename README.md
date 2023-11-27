@@ -51,7 +51,7 @@ its behavior and how it interacts within the scene:
   the screen. It can be a solid color or a Skybox material.
 
 - `Culling Mask`: Defines which layers are visible to the camera, allowing
-  control over what the camera can render.
+  control over what the camera can render. Need to set the object layer.
 
 <img src ="https://media.discordapp.net/attachments/1170761960443347105/1171122433785352253/image.png?ex=655b87c2&is=654912c2&hm=b42e8f9b9f02dcb290a90b0d7aa6f308d314498b79d5e27e222388c574b76f66&=">
 
