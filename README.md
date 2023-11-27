@@ -91,6 +91,9 @@ Indicates reference to Render Texture asset
 - Instead of rendering on screen: we can render the output of a camera on game
   object
 
+Destination render texture.
+
+Usually cameras render directly to screen, but for some effects it is useful to make a camera render into a texture. This is done by creating a RenderTexture object and setting it as targetTexture on the camera. The camera will then render into that texture.
 
 1. `Create a camera, set positition and rotation according to the requirement`
 
