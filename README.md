@@ -189,17 +189,17 @@ according to the skybox material we use.
 
 To use it, select Window -> Rendering -> Lighting
 
-![image](https://gist.github.com/assets/46347836/f47c1128-576c-4bdc-a15e-8765024fa58d)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285883300-f47c1128-576c-4bdc-a15e-8765024fa58d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004023Z&X-Amz-Expires=300&X-Amz-Signature=3e9275ed35beeccdde60bcca3b429c3a4e5eb4137f3d11ac4922c62d4ed8f098&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 In Lighting window, select Environment and then select material for Skybox
 Material
 
-![image](https://gist.github.com/assets/46347836/34ef25f2-d0b6-44f5-ab09-d3bcb73e1ce3)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285884702-34ef25f2-d0b6-44f5-ab09-d3bcb73e1ce3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004038Z&X-Amz-Expires=300&X-Amz-Signature=374bdb364bf25e01bbef80bf10bf5a72c70b437c1e93a8803342fdf3ae195c7f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 After you select one of the material from the skybox assets above, the sky and
 the ground will change
 
-![image](https://gist.github.com/assets/46347836/89114776-33e6-4561-b82c-b86feb4ee781)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285886231-89114776-33e6-4561-b82c-b86feb4ee781.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004101Z&X-Amz-Expires=300&X-Amz-Signature=f3b8258befa36bd6ee22d16964a3b415f04e63c6c3a78ee04eaa265d9e38f727&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 - ### Use skybox material in the camera
 
@@ -209,21 +209,21 @@ change if we use the camera
 To use it, select our main camera and then Add Component, then select Rendering
 -> Skybox
 
-![image](https://gist.github.com/assets/46347836/21c0a808-681a-4272-ad72-ad5138ff9e41)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285891283-21c0a808-681a-4272-ad72-ad5138ff9e41.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004130Z&X-Amz-Expires=300&X-Amz-Signature=80873f7bd8ad248306c00df9f61efd99e4dd5aa610f3ef93bd26fe3310302b3e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
-![image](https://gist.github.com/assets/46347836/24219720-4d8e-4f4b-b974-5a02aee544ef)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285891455-24219720-4d8e-4f4b-b974-5a02aee544ef.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004142Z&X-Amz-Expires=300&X-Amz-Signature=328ce7080039201713498cadf197b52362b04ae1a42dddc6dacdbdce584aa0ea&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
-![image](https://gist.github.com/assets/46347836/487ed218-e0a7-445a-802a-ae03794e1584)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285891938-487ed218-e0a7-445a-802a-ae03794e1584.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004151Z&X-Amz-Expires=300&X-Amz-Signature=af9a749d48652ce998fa4dccfeef29513d38466f5f5956745fdedf7cf8415c81&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
-![Screenshot 2023-11-27 204813](https://gist.github.com/assets/46347836/630046ae-6379-46cf-bd10-890b148fc707)
+![Screenshot 2023-11-27 204813](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285892742-630046ae-6379-46cf-bd10-890b148fc707.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004204Z&X-Amz-Expires=300&X-Amz-Signature=1ab5148d323ef2a947c8758e9e3eb2ea727e90c3a788bda5d5df59cc106e8886&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 After that, select skybox material you want to use
 
-![Screenshot 2023-11-27 204905](https://gist.github.com/assets/46347836/7aab4b2c-d697-4de2-be9c-cbf098c0d01e)
+![Screenshot 2023-11-27 204905](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285893904-7aab4b2c-d697-4de2-be9c-cbf098c0d01e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004215Z&X-Amz-Expires=300&X-Amz-Signature=e8c12e7f4f04feb4156acde3252203f4da862062a9de3bd4686e73ea1ecb3ee7&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 After you have done all of that, the skybox doesn't change, but if you see
 through through the main camera, the skybox does change
 
-![image](https://gist.github.com/assets/46347836/00e528c7-a808-4040-84f6-a2cb5c4c9fbd)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285894720-00e528c7-a808-4040-84f6-a2cb5c4c9fbd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004227Z&X-Amz-Expires=300&X-Amz-Signature=5a5a099ddd83f9df4f4d623f107d55b2ae38c608c0a1ff38838fc442174cd55b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
-![image](https://gist.github.com/assets/46347836/2f736e1f-9886-4176-a101-dad99b8e8aba)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/46347836/285894857-2f736e1f-9886-4176-a101-dad99b8e8aba.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T004237Z&X-Amz-Expires=300&X-Amz-Signature=a67c9d6ea30fa6cddbbf18cab6ba167ac0d9c13d40c900f50b0b88147fd3d680&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
