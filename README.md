@@ -112,13 +112,13 @@ for the implementation we will follew a simple step to create a mirror:
 
    - Setup the camera: Select Game Object Menu -> Camera
 
-    ![This](images/1a.png)
+   ![This](images/1a.png)
 
    - Setup the positition
   
     we can move the positition little bit up or move it back, move it left/right and we can also rotate it around x, y, z axis until we can display a different view in our     screen. Now the camera that we have newly created is rendering the output to screen or displaying the output inside the game view.
     
-    ![This](images/1b.png)
+   ![This](images/1b.png)
    
 
 2. `Create a New Rener Texture, Asset - Create - Render Texture`
